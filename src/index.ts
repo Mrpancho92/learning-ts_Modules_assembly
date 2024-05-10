@@ -2,7 +2,7 @@
 // import { type Queue } from "./queue"; // в более современных версиях
 // При использовании в tsconfig.json "module": "ES2015" вместо "module": "CommonJS" нужно в package.json добавить строчку "type": "module" и конкретно указать путь к файлу при импорте "./queue.js".
 // "type": "module" необходимо и в html файле прописать в теге скрипт после src.
-// Если использовать "module": "CommonJS" то в браузере будет ошибка. Этот тип модулей необходимо собирать с помощью сборщиков.
+// Если использовать "module": "CommonJS" то в браузере будет ошибка. Этот тип модулей необходимо собирать с помощью сборщиков. 
 import { type Queue, underflow } from "./queue.js";
 
 class ArrayQueue<T> implements Queue<T> {
